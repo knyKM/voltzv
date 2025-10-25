@@ -8,7 +8,7 @@ VoltzV é uma plataforma web on‑prem para centralizar, visualizar e gerenciar 
 - `voltzv/` (Frontend PHP)
   - Consome a API principal (JWT)
   - Persistência de licença no servidor local via `api/license_state.php`
-  - Validação de licença contra servidor público (default `http://217.196.63.76`)
+  - Validação de licença contra servidor público
 - `root/api-node/` (API Core)
   - Node.js + Express + Mongoose
   - Endpoints: `/login`, `/me`, `/users`, `/groups`, `/vulnerabilities`, `/dashboard/*`, `/analytics/*`, `/tenable/*`, `/import/*`, `/install/*`, `/certificates`, etc.
