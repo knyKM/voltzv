@@ -18,7 +18,7 @@ VoltzV é uma plataforma web on‑prem para centralizar, visualizar e gerenciar 
   - Suporte a `client_id` (tenant) e flag `used`
 ## 🔐 Licenciamento e Tenant
 - Tipos: `free`, `pro`, `proplus`
-- Licença é validada contra servidor público (`LICENSE_PUBLIC_BASE`, default `http://217.196.63.76`)
+- Licença é validada contra servidor público (`LICENSE_PUBLIC_BASE`)
 - Multi‑tenant:
   - Cada instalação define o `client_id` (tenant) localmente.
   - A ativação só é concluída se a licença informada pertencer ao tenant do cliente.
