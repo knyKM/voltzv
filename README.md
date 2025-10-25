@@ -1,9 +1,14 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/11b5bece-be7e-47ea-919a-28c5a8589191" width="300" alt="VoltzV Logo"/>
+</p>
+
 # ⚡ VoltzV — Gestão de Vulnerabilidades (On‑Prem)
 VoltzV é uma plataforma web on‑prem para centralizar, visualizar e gerenciar vulnerabilidades, ativos e integrações com scanners (ex.: Tenable). O projeto inclui:
 - Frontend em PHP (`voltzv/`) com Bootstrap 5 + Chart.js + Tribute.js
 - API principal em Node/Express + MongoDB (`root/api-node/`)
 - License Manager em Node/Express + MongoDB (`license-manager/`)
-- Modo Free (limite de 10 hosts) e licenças Pro/Pro+ com validação multi‑tenant
+- Modo Free (limite de 10 hosts) e li![Uploading voltzv-vector-center-white.png…]()
+cenças Pro/Pro+ com validação multi‑tenant
 ## 🧭 Arquitetura
 - `voltzv/` (Frontend PHP)
   - Consome a API principal (JWT)
