@@ -7,8 +7,7 @@ VoltzV é uma plataforma web on‑prem para centralizar, visualizar e gerenciar 
 - Frontend em PHP (`voltzv/`) com Bootstrap 5 + Chart.js + Tribute.js
 - API principal em Node/Express + MongoDB (`root/api-node/`)
 - License Manager em Node/Express + MongoDB (`license-manager/`)
-- Modo Free (limite de 10 hosts) e li![Uploading voltzv-vector-center-white.png…]()
-cenças Pro/Pro+ com validação multi‑tenant
+- Modo Free (limite de 10 hosts) e licenças Pro/Pro+ com validação multi‑tenant
 ## 🧭 Arquitetura
 - `voltzv/` (Frontend PHP)
   - Consome a API principal (JWT)
