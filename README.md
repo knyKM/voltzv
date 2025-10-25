@@ -50,7 +50,7 @@ Exemplo uso:
 # ou customizando
 FE_PORT=8082 API_PORT=3002 MONGO_PORT=27019 \
 TENANT_CLIENT_ID=SEU_TENANT \
-LICENSE_PUBLIC_BASE=http://217.196.63.76 \
+LICENSE_PUBLIC_BASE=http:// \
 /home/kenayxkk/start-voltzv-stack-clean.sh
 ```
 URLs:
@@ -60,7 +60,7 @@ URLs:
 ## ⚙️ Configuração por ambiente
 Frontend (`voltzv/`):
 - `API_BASE`: base da API principal (injeção via `js/runtime-config.js.php`)
-- `LICENSE_PUBLIC_BASE`: servidor público para validar licenças (default `http://217.196.63.76`)
+- `LICENSE_PUBLIC_BASE`: servidor público para validar licenças (default `http://`)
 - `TENANT_CLIENT_ID`: opcional; define o tenant ID da instalação
 - `ALLOW_TENANT_UPDATE`: se definido, permite alterar o tenant via UI após setado
 API (`root/api-node/`):
